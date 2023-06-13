@@ -1,0 +1,59 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+
+form fieldset p  {
+	padding: 5px;
+}
+
+body {
+	background-color: #eee;
+}
+
+#pagina {
+	width: 970px;
+	margin:0 auto;
+	background-color:#fff;
+}
+
+#topo {
+	background-color:#1ae3d0;
+}
+#topo img {
+	padding:20px;
+}
+
+#menu {
+	text-align:center;
+	float: left;
+	background-color:#aed330;
+	width: 200px;
+}
+
+#menu ul {
+	list-style: none;
+	width: 200px;
+	
+}
+
+#menu ul li a {
+	background-color:#eee;
+	text-decoration:none;
+	padding:10px;
+	display:block;
+}
+#menu ul li a:hover {
+	background-color:#ff0;
+}
+
+#conteudo {
+	float: right;
+	width: 730px;
+	padding: 0 20px;
+}
+
+#rodape {
+	clear: both;
+	background-color:#ff0009;
+}
