@@ -4,7 +4,7 @@
 
 <?php
 	session_start();
-	
+	//Fará a verificação 
 	// Verifica se o usuário está logado
 	if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 		// Usuário não está logado, redireciona para a página de login
